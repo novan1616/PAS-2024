@@ -1,0 +1,18 @@
+document.getElementById("loginForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+  
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+  
+    if ((email === "firman@gmail.com" && password === "11")|| (email === "novan@gmail.com" && password === "111")|| (email === "afa@gmail.com" && password === "111")) {
+      // Animasi sebelum pindah halaman
+      document.querySelector(".login-box").style.transform = "scale(0.95)";
+      setTimeout(() => {
+        window.location.href = "contoh.html";
+      }, 300);
+    } else {
+      alert("Email atau password salah!");
+  
+    }
+  });
+  
