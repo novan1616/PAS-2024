@@ -1,0 +1,54 @@
+<htm<!DOCTYPE html>
+    <html lang="en">
+     <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Web | Portofolio</title>
+    </head>
+    <body>
+    <div class="container">
+    <div class="sidebar">
+    <nav>
+    <ul>
+    <li><a href="https://www.youtube.com">About</a></li>
+                <li><a href="Portofolio.html">Portofolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+              </ul> 
+            </nav>
+          </div>
+          <main class="content">
+            <section class="hero">
+              <img src="online.png" alt="" />
+              <div class="hero-content">
+                <h1>Biodata Diri</h1>
+                <br />
+                <h2>Saya Adalah siswa di 
+    SMK Telkom Purwokerto</h2>
+                <br /><br />
+                <p>
+                </p>
+                <a href="" class="action-btn">Profile Saya</a>
+              </div>
+            </section>
+          </main>
+          <div class="footer">
+            <footer>
+              <ul>
+                <li>
+                  <img src="image instagram" alt="" /><a><p>Instagram</p></a>
+                </li>
+                <li>
+                  <img src="image facebook" alt="" /><a><p>Facebook</p></a>
+                </li>
+                <li>
+                  <img src="image tewiter" alt="" /><a><p>Twitter</p></a>
+                </li>
+                <li>
+                  <img src="telegram.png" alt="" /><a><p>Telegram</p></a>
+                </li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+      </body>
+    </html>
